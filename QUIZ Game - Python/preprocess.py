@@ -1,5 +1,5 @@
-from database import intrebari, options
+from database import questions, options
 
 
 def preprocess_data():
-    return dict(zip(intrebari, options))
+    return dict(zip(questions, options))
